@@ -1,0 +1,2 @@
+@@include("_modal.html")  // для включения в html
+--include('modal.js') // для включения в js

@@ -1,0 +1,28 @@
+//settings
+@import "./settings/norm";
+@import "./settings/mixins";
+@import "./settings/var";
+@import "./settings/fonts";
+@import "./settings/base";
+
+
+//components
+// @import "./components/base";
+// @import "./components/header";
+// @import "./components/burger";
+// @import "./components/stickyMenu";
+// @import "./components/swiper";
+// @import "./components/modalFixed";
+// @import "./components/modalScroll";
+// @import "./components/filter";
+// @import "./components/spoiler";
+// @import "./components/checkbox";
+// @import "./components/radio";
+// @import "./components/calendar";
+// @import "./components/map";
+@import "./components/tabs";
+
+
+//parts
+@import "./project_parts/buttons";
+

@@ -1,0 +1,30 @@
+.form-search {
+    display: flex;
+    align-items: center;
+
+    &__field {
+    }
+
+    &__input {
+        outline: none;
+    }
+
+    &__button {
+
+    }
+
+    &__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__pic {
+    }
+}

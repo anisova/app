@@ -1,0 +1,50 @@
+.modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+  z-index: 100;
+  opacity: 0;
+  transition: 1s ease;
+  &__container {
+    background-color: white;
+    position: relative;
+    padding: 2vh 0;
+    width: 40%;
+    max-height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  &__content {
+    overflow: auto;
+  }
+}
+.modal.active {
+  opacity: 1;
+  visibility: visible;
+}
+.btn-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  &__pic {
+    transform: scale(0.9);
+    transition: 0.5s ease;
+    opacity: 0.6;
+    &:hover {
+      transition: 0.5s ease;
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}

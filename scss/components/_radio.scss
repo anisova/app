@@ -1,0 +1,41 @@
+.label {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }  
+  .radio {
+    display: none;
+    &:checked ~ .switch {
+      &:after {    
+        opacity: 1;
+        width: 10px;
+        height: 10px;        
+        background-color: black;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -24px;      
+        transition: opacity 1s ease;  
+      }
+    }
+  }
+  .switch {
+    position: relative;
+    cursor: pointer;     
+    &:before {
+      position: absolute;
+      content: "";
+      width: 18px;
+      height: 18px;      
+      border: 2px solid black;
+      top: 50%;
+      transform: translateY(-50%);      
+      left: -30px;
+    }
+    &:after {
+        position: absolute;
+        content: "";
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+  }
+  

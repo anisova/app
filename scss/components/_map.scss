@@ -1,0 +1,13 @@
+.map {
+	width: 500px;
+	height: 500px;
+	background-color: #333;
+}
+
+[class*="copyrights-pane"] { //убираем копирайты
+	display: none !important;
+}
+
+// [class*="ground-pane"] { //черно-белая карта
+// 	filter: grayscale(1);
+// }

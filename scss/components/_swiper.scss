@@ -1,0 +1,25 @@
+.slider1 {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  &__wrap {
+    display: flex;
+  }
+}
+.slide1 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+.slider1__wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
